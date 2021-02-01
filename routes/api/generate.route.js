@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const QUOTES = require('../../models/quotes');
+const generateController = require('../../controllers/generate.controller');
+// const QUOTES = require('../../models/quotes');
 
-router.get('/', (req, res) => res.json({quotes: QUOTES}));
+router.get('/', (req, res) => generateController.generate(req, res));
 
 module.exports = router;

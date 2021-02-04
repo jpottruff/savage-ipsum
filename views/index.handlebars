@@ -1,16 +1,22 @@
-<h1 class="text-center mb-3">Savage Ipsum</h1>
-<h2>Ohhhh yeeeeah!!!</h2>
+<header class="flex justify-between items-center py-2 px-4 border-4 border-blue-700">
+    <div>
+        <h1 class="text-5xl">Savage Ipsum</h1>
+        <h2 class="text-3xl">Ohhhh yeeeeah!!!</h2>
+    </div>
+    <a href="https://github.com/jpottruff/savage-ipsum" target="_blank"><img src="/images/github/GitHub-Mark-Light-64px.png" alt="github" class="github-img"></a>
+</header>
 
-<a href="#">Github</a>
-<form action="/api/generate">
+<form action="/api/generate" class="border-4 border-red-500">
     <label for="paragraphs">Paragraphs:</label>
     <input name="paragraphs" type="number" min="1" max="25" placeholder="1-25">
-    <button type="submit" value="generate">Dig it!</button>
+    <button type="submit" value="generate" class="bg-blue-500 py-2 px-4 rounded border-4 border-blue-700 font-bold">Dig it!</button>
 </form>
+
+
 
 {{#if paragraphs}}
 <div class="result">
-    <h3>Bonesaw is ready!</h3>
+    <h3 class="text-xl font-bold">Bonesaw is ready!</h3>
     {{#each paragraphs}}
         <p>{{paragraph}}</p>
     {{/each}}

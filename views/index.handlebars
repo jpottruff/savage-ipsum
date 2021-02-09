@@ -1,24 +1,30 @@
-<header class="flex justify-between items-center py-2 px-4 border-4 border-blue-700">
+<header class="flex justify-between items-center py-4 px-8">
     <div>
-        <h1 class="text-5xl">Savage Ipsum</h1>
-        <h2 class="text-3xl">Ohhhh yeeeeah!!!</h2>
+        <h1 class="text-5xl font-marker">Savage Ipsum</h1>
+        {{!-- <h2 class="text-3xl font-marker">Ohhhh yeeeeah!!!</h2> --}}
     </div>
     <a href="https://github.com/jpottruff/savage-ipsum" target="_blank"><img src="/images/github/GitHub-Mark-Light-64px.png" alt="github" class="github-img"></a>
 </header>
 
-<form action="/api/generate" class="border-4 border-red-500">
-    <label for="paragraphs">Paragraphs:</label>
-    <input name="paragraphs" type="number" min="1" max="25" placeholder="1-25">
-    <button type="submit" value="generate" class="bg-blue-500 py-2 px-4 rounded border-4 border-blue-700 font-bold">Dig it!</button>
+<form action="/api/generate" class="flex flex-col items-center py-4 px-10">
+    <div class="flex-initial my-2">
+        <label for="paragraphs" class="text-xl">Paragraphs:</label>
+        {{!-- <input name="paragraphs" type="text" placeholder="1-25" class="text-black ml-2 pl-4 pr-1 rounded"> --}}
+        <input name="paragraphs" type="number" min="1" max="25" placeholder="1-25" class="text-black ml-2 pl-4 pr-1 rounded">
+    </div>
+    <div class="flex-initial my-2">
+        <button type="submit" value="generate" class="bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 py-2 px-4 rounded font-marker hover:text-black">Dig it!</button>
+    </div>
 </form>
 
-
-
 {{#if paragraphs}}
-<div class="result">
-    <h3 class="text-xl font-bold">Bonesaw is ready!</h3>
+<div class="result flex flex-col items-center py-2 px-10">
+    <div class="flex items-center">
+        <h3 class="text-2xl font-marker">Bonesaw is ready!</h3>
+        <button class="ml-4 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 rounded-full h-8 w-8 flex items-center justify-center font-marker hover:text-black">X</button>
+    </div>
     {{#each paragraphs}}
-        <p>{{paragraph}}</p>
+        <p class="my-2 max-w-md">{{paragraph}}</p>
     {{/each}}
 </div>
 {{/if}}

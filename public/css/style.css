@@ -11218,6 +11218,14 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-marker {
+  font-family: Permanent Marker, sans-serif;
+}
+
+.font-sans-alt {
+  font-family: montserrat, sans-serif;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -31172,6 +31180,20 @@ video {
   width: 24px;
 }
 
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -41843,6 +41865,14 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-marker {
+    font-family: Permanent Marker, sans-serif;
+  }
+
+  .sm\:font-sans-alt {
+    font-family: montserrat, sans-serif;
   }
 
   .sm\:font-thin {
@@ -72389,6 +72419,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-marker {
+    font-family: Permanent Marker, sans-serif;
+  }
+
+  .md\:font-sans-alt {
+    font-family: montserrat, sans-serif;
+  }
+
   .md\:font-thin {
     font-weight: 100;
   }
@@ -102931,6 +102969,14 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-marker {
+    font-family: Permanent Marker, sans-serif;
+  }
+
+  .lg\:font-sans-alt {
+    font-family: montserrat, sans-serif;
   }
 
   .lg\:font-thin {
@@ -133477,6 +133523,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-marker {
+    font-family: Permanent Marker, sans-serif;
+  }
+
+  .xl\:font-sans-alt {
+    font-family: montserrat, sans-serif;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -164019,6 +164073,14 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-marker {
+    font-family: Permanent Marker, sans-serif;
+  }
+
+  .\32xl\:font-sans-alt {
+    font-family: montserrat, sans-serif;
   }
 
   .\32xl\:font-thin {

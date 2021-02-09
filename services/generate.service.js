@@ -7,15 +7,30 @@ const QUOTES = require('../models/quotes');
  * @returns {Object[]} an array of paragraph objects
  */
 exports.generateParagraphs = function generateParagraphs(query) {
-    let numberOfParagraphs = parseInt(query.paragraphs);
-    if (Number.isNaN(numberOfParagraphs) || numberOfParagraphs === 0) {
-        numberOfParagraphs = 1 
-    }
+    const numberOfParagraphs = sanitizeInput(query.paragraphs);
     const paragraphs = []; 
     for (let i = 0; i < numberOfParagraphs; i++) {
         paragraphs.push(makeParagraph());
     }
     return paragraphs;
+}
+
+/**
+ * Sanitizes user input by checking for NaN and ensuring the requested amount is within the appropriate range
+ * @param {number} requestedParagraphs
+ * @returns {number} the number of paragraphs to be produced
+ */
+function sanitizeInput(requestedParagraphs) {
+    const defaultNum = 1;
+    const maxAllowed = 25;
+    let requested = parseInt(requestedParagraphs);
+    if (Number.isNaN(requested) || requested === 0) {
+        return defaultNum; 
+    }
+    return ( (requested > maxAllowed) ? maxAllowed : requested);
+
+
+    
 }
 
 /**

@@ -31175,6 +31175,11 @@ video {
           animation: bounce 1s infinite;
 }
 
+.logo {
+  height: 125px;
+  width: 125px;
+}
+
 .github-img {
   height: 24px;
   width: 24px;
@@ -31192,7 +31197,7 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 
-input[type=number] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 

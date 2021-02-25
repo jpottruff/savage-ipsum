@@ -1,4 +1,4 @@
-# ![Macho Man](/public/favicon/favicon-32x32.png) Savage Ipsum
+# ![Macho Man](/public/favicon/android-chrome-192x192.png) Savage Ipsum
 
 Dummy text generator inspired by the cream of the crop. Made with _node_, _express_, _handlebars_, and _tailwind css_. Ohhhhh yeahhhh!
 

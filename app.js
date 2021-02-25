@@ -6,14 +6,15 @@ const path = require('path');
 const app = express();
 
 // View Engine
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
-app.use(express.static(path.join(__dirname, 'public')))
+
+// Static Files
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Routing
 app.get('/', (req, res) => res.render('index'));
 app.use('/api/generate', require('./routes/api/generate.route'));
-
 
 // Port
 const PORT = process.env.PORT || 3000;

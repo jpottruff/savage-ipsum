@@ -1,9 +1,9 @@
-<form action="/api/generate" class="flex flex-col items-center py-4 px-10">
+<form action="/api/generate" class="flex flex-col items-center py-4 px-10 tracking-wide leading-relaxed">
     <div class="flex-initial my-4">
         <label for="paragraphs" class="text-xl">Paragraphs:</label>
         {{!-- <input name="paragraphs" type="text" placeholder="1-25" class="text-black ml-2 pl-4 pr-1 rounded"> --}}
         <input name="paragraphs" type="number" min="1" max="25" placeholder="1-25"
-            class="text-black ml-2 pl-4 pr-1 rounded focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent">
+            class="text-black ml-4 pl-4 pr-1 rounded focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent">
     </div>
     <div class="flex-initial my-4">
         <button type="submit" value="generate"

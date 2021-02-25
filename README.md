@@ -1,6 +1,6 @@
-# ![Macho Man](/public/favicon/android-chrome-192x192.png) Savage Ipsum
+# Savage Ipsum
 
-Dummy text generator inspired by the cream of the crop. Made with _node_, _express_, _handlebars_, and _tailwind css_. Ohhhhh yeahhhh!
+Dummy text generator inspired by the cream of the crop! Made with _node_, _express_, _handlebars_, and _tailwind css_. Ohhhhh yeahhhh!
 
 ## Frameworks / Libraries / Tools
 

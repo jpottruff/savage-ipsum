@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-  height: 125px;
-  width: 125px;
-}
-
-.github-img {
-  height: 24px;
-  width: 24px;
-}
-
 /*** NUMBER INPUT ***/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,

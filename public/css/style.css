@@ -11219,7 +11219,7 @@ video {
 }
 
 .font-marker {
-  font-family: Permanent Marker, sans-serif;
+  font-family: Permanent Marker, cursive;
 }
 
 .font-sans-alt {
@@ -41940,7 +41940,7 @@ input[type='number'] {
   }
 
   .sm\:font-marker {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, cursive;
   }
 
   .sm\:font-sans-alt {
@@ -72524,7 +72524,7 @@ input[type='number'] {
   }
 
   .md\:font-marker {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, cursive;
   }
 
   .md\:font-sans-alt {
@@ -103108,7 +103108,7 @@ input[type='number'] {
   }
 
   .lg\:font-marker {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, cursive;
   }
 
   .lg\:font-sans-alt {
@@ -133692,7 +133692,7 @@ input[type='number'] {
   }
 
   .xl\:font-marker {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, cursive;
   }
 
   .xl\:font-sans-alt {
@@ -164276,7 +164276,7 @@ input[type='number'] {
   }
 
   .\32xl\:font-marker {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, cursive;
   }
 
   .\32xl\:font-sans-alt {

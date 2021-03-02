@@ -31260,6 +31260,12 @@ input[type='number'] {
 /* width */
 
 ::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+/* width */
+
+::-webkit-scrollbar:hover {
   width: 1.25rem;
 }
 

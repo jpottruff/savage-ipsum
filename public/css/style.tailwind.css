@@ -18,6 +18,10 @@ input[type='number'] {
 /*** SCROLLBAR ***/
 /* width */
 ::-webkit-scrollbar {
+  @apply w-3;
+}
+/* width */
+::-webkit-scrollbar:hover {
   @apply w-5;
 }
 

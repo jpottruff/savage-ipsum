@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        marker: ['Permanent Marker', 'sans-serif'],
+        marker: ['Permanent Marker', 'cursive'],
         'sans-alt': ['montserrat', 'sans-serif'],
       },
       height: {

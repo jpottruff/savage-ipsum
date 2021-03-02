@@ -11478,6 +11478,10 @@ video {
   height: 24px;
 }
 
+.h-32px {
+  height: 32px;
+}
+
 .h-36px {
   height: 36px;
 }
@@ -27125,6 +27129,10 @@ video {
   width: 24px;
 }
 
+.w-32px {
+  width: 32px;
+}
+
 .w-36px {
   width: 36px;
 }
@@ -31229,11 +31237,6 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-.github-img {
-  height: 24px;
-  width: 24px;
 }
 
 /*** NUMBER INPUT ***/
@@ -42220,6 +42223,10 @@ input[type='number'] {
 
   .sm\:h-24px {
     height: 24px;
+  }
+
+  .sm\:h-32px {
+    height: 32px;
   }
 
   .sm\:h-36px {
@@ -57856,6 +57863,10 @@ input[type='number'] {
     width: 24px;
   }
 
+  .sm\:w-32px {
+    width: 32px;
+  }
+
   .sm\:w-36px {
     width: 36px;
   }
@@ -72828,6 +72839,10 @@ input[type='number'] {
 
   .md\:h-24px {
     height: 24px;
+  }
+
+  .md\:h-32px {
+    height: 32px;
   }
 
   .md\:h-36px {
@@ -88464,6 +88479,10 @@ input[type='number'] {
     width: 24px;
   }
 
+  .md\:w-32px {
+    width: 32px;
+  }
+
   .md\:w-36px {
     width: 36px;
   }
@@ -103436,6 +103455,10 @@ input[type='number'] {
 
   .lg\:h-24px {
     height: 24px;
+  }
+
+  .lg\:h-32px {
+    height: 32px;
   }
 
   .lg\:h-36px {
@@ -119072,6 +119095,10 @@ input[type='number'] {
     width: 24px;
   }
 
+  .lg\:w-32px {
+    width: 32px;
+  }
+
   .lg\:w-36px {
     width: 36px;
   }
@@ -134044,6 +134071,10 @@ input[type='number'] {
 
   .xl\:h-24px {
     height: 24px;
+  }
+
+  .xl\:h-32px {
+    height: 32px;
   }
 
   .xl\:h-36px {
@@ -149680,6 +149711,10 @@ input[type='number'] {
     width: 24px;
   }
 
+  .xl\:w-32px {
+    width: 32px;
+  }
+
   .xl\:w-36px {
     width: 36px;
   }
@@ -164652,6 +164687,10 @@ input[type='number'] {
 
   .\32xl\:h-24px {
     height: 24px;
+  }
+
+  .\32xl\:h-32px {
+    height: 32px;
   }
 
   .\32xl\:h-36px {
@@ -180286,6 +180325,10 @@ input[type='number'] {
 
   .\32xl\:w-24px {
     width: 24px;
+  }
+
+  .\32xl\:w-32px {
+    width: 32px;
   }
 
   .\32xl\:w-36px {

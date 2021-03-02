@@ -9,6 +9,7 @@ module.exports = {
       },
       height: {
         '24px': '24px',
+        '32px': '32px',
         '36px': '36px',
         '48px': '48px',
         '75px': '75px',
@@ -18,6 +19,7 @@ module.exports = {
       },
       width: {
         '24px': '24px',
+        '32px': '32px',
         '36px': '36px',
         '48px': '48px',
         '75px': '75px',

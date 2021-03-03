@@ -7,6 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "tw:build": "tailwind build css/style.tailwind.css -o public/css/style.css",
+    "tw:prod": "postcss build css/style.tailwind.css -o public/css/style.css",
     "tw:watch": "onchange \"tailwind.config.js\" \"css/**/*.css\" -- npm run tw:build"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "express-handlebars": "^5.2.0",
     "onchange": "^7.1.0",
     "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {

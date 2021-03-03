@@ -1,4 +1,10 @@
-# Savage Ipsum
+<p align="center">
+  <a href="https://github.com/jpottruff/savage-ipsum">
+    <img src="public/images/machoman-vanorton-childhoodmemoriesicons-behance.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h1 align="center">Savage Ipsum</h1>
+</p>
 
 Dummy text generator inspired by the cream of the crop! Made with _node_, _express_, _handlebars_, and _tailwind css_. Ohhhhh yeahhhh!
 

@@ -16,6 +16,19 @@ Dummy text generator inspired by the cream of the crop! Made with _node_, _expre
 - Google Fonts: _[Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom)_ and _[Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)_
 - [Favicon.io](https://favicon.io/favicon-converter/)
 
+## Builds
+
+Please be aware of how the `purge` block is currently set up in `tailwind.config.js`.
+
+To perform a **dev** build - simply comment out the `enabled: true` line.
+
+```
+  purge: {
+    enabled: true,
+    content: ['./views/**/*.handlebars'],
+  },
+```
+
 ## Image Attribution
 
 "[Macho Man](https://www.behance.net/gallery/26326517/Icons)" by [Van Orton Design](https://vanortondesign.com/iconscollection) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)

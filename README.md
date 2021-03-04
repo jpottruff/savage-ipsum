@@ -12,22 +12,12 @@ Dummy text generator inspired by the cream of the crop! Made with _node_, _expre
 
 - [express](https://expressjs.com/)
 - [handlebars](https://www.npmjs.com/package/express-handlebars)
-- [tailwind css](https://tailwindcss.com/docs) / [hypercolor gradients](https://hypercolor.dev/)
+- [tailwind css](https://tailwindcss.com/docs)
 - Google Fonts: _[Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom)_ and _[Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)_
-- [Favicon.io](https://favicon.io/favicon-converter/)
 
 ## Builds
 
-Please be aware of how the `purge` block is currently set up in `tailwind.config.js`.
-
-To perform a **dev** build - simply comment out the `enabled: true` line.
-
-```
-  purge: {
-    enabled: true,
-    content: ['./views/**/*.handlebars'],
-  },
-```
+It should be noted that the **tailwind prod build script** is currently using [cross-env](https://www.npmjs.com/package/cross-env).
 
 ## Image Attribution
 

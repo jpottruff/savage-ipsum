@@ -7,7 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "tw:build": "tailwind build css/style.tailwind.css -o public/css/style.css",
-    "tw:prod": "postcss build css/style.tailwind.css -o public/css/style.css",
+    "tw:prod": "cross-env NODE_ENV=production postcss build css/style.tailwind.css -o public/css/style.css",
     "tw:watch": "onchange \"tailwind.config.js\" \"css/**/*.css\" -- npm run tw:build"
   },
   "keywords": [],
@@ -23,6 +23,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "nodemon": "^2.0.7"
   }
 }

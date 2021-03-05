@@ -549,9 +549,9 @@ video {
   --tw-gradient-to: #f59e0b;
 }
 
-.border-white {
+.border-pink-500 {
   --tw-border-opacity: 1;
-  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-color: rgba(236, 72, 153, var(--tw-border-opacity));
 }
 
 .focus\:border-transparent:focus {

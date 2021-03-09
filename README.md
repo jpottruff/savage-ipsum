@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/jpottruff/savage-ipsum">
-    <img src="public/images/machoman-vanorton-childhoodmemoriesicons-behance.png" alt="Logo" width="80" height="80">
+    <img src="public/img/machoman-vanorton-childhoodmemoriesicons-behance.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">Savage Ipsum</h1>

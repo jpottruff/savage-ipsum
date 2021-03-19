@@ -22,7 +22,7 @@ Dummy text generator inspired by the cream of the crop! Made with _node_, _expre
 
 `npm run tw:build`
 
-- all the styles - you're css output will be _HUGE_ but you only need to re-run if you mess with the _tailwind configs_
+- all the styles - your css output will be _HUGE_ but you only need to re-run if you mess with the _tailwind configs_
 
 **PROD**
 

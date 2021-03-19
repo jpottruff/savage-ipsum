@@ -13,12 +13,30 @@ Dummy text generator inspired by the cream of the crop! Made with _node_, _expre
 - [express](https://expressjs.com/)
 - [handlebars](https://www.npmjs.com/package/express-handlebars)
 - [tailwind css](https://tailwindcss.com/docs)
-- Google Fonts: _[Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom)_ and _[Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)_
 
 ## Builds
 
-It should be noted that the **tailwind prod build script** is currently using [cross-env](https://www.npmjs.com/package/cross-env).
+### Building Tailwind styles
 
-## Image Attribution
+**DEV**
+
+`npm run tw:build`
+
+- all the styles - you're css output will be _HUGE_ but you only need to re-run if you mess with the _tailwind configs_
+
+**PROD**
+
+`npm run tw:prod`
+
+- will treeshake the unused styles and drastically reduce the size of the css output
+- _this script is currently using [cross-env](https://www.npmjs.com/package/cross-env)_
+
+## Attribution
+
+### Image
 
 "[Macho Man](https://www.behance.net/gallery/26326517/Icons)" by [Van Orton Design](https://vanortondesign.com/iconscollection) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+
+### Fonts
+
+Google Fonts _[Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom)_ and _[Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)_

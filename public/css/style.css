@@ -729,6 +729,10 @@ video {
   padding-left: 1rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
 * {
   --tw-shadow: 0 0 #0000;
 }
@@ -796,6 +800,10 @@ video {
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .w-7 {
@@ -878,6 +886,11 @@ video {
     -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
             animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
+}
+
+.animate-swell-single {
+  -webkit-animation: ping 3s cubic-bezier(0, 0, 0.2, 1) 1;
+          animation: ping 3s cubic-bezier(0, 0, 0.2, 1) 1;
 }
 
 /*** NUMBER INPUT ***/

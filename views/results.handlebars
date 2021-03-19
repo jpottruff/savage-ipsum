@@ -6,12 +6,17 @@
             class="ml-4 rounded-full h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center font-marker bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-black">X</a>
     </div>
 
-    <button type="button" onclick="copyToClipboard()"
+    <button type="button" id="copy-btn" onclick="copyToClipboard()"
         class="bg-gray-900 mt-2 mb-4 py-1 px-4 rounded border border-dotted border-pink-500 font-marker tracking-wider hover:bg-gray-800">
         <span class="bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
             Copy to Clipboard
         </span>
     </button>
+
+    <div id="copied-msg"
+        class="bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent font-marker tracking-wider invisible">
+        <span id="copied-msg-text">Copied</span>
+    </div>
 
     {{#each pageData.paragraphs}}
     <p class="my-2 max-w-prose text-justify">

@@ -5,9 +5,10 @@ const path = require('path');
 // App
 const app = express();
 
-// View Engine
+// Views
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
+app.set('views', path.join(__dirname, 'src/views'));
 
 // Static Files
 app.use(express.static(path.join(__dirname, 'public')));

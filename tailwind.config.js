@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
-    './views/**/*.handlebars', 
-    './public/js/*.js' // for dynamically set classes
+    './src/views/**/*.handlebars',
+    './public/js/*.js', // for dynamically set classes
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {

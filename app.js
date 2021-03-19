@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routing
 app.get('/', (req, res) => res.render('index'));
-app.use('/api/generate', require('./routes/api/generate.route'));
+app.use('/api/generate', require('./src/routes/api/generate.route'));
 
 // Port
 const PORT = process.env.PORT || 3000;

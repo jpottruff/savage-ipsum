@@ -13,6 +13,7 @@ Dummy text generator inspired by the cream of the crop! Made with _node_, _expre
 - [express](https://expressjs.com/)
 - [handlebars](https://www.npmjs.com/package/express-handlebars)
 - [tailwind css](https://tailwindcss.com/docs)
+- [jest](https://jestjs.io/)
 
 ## Builds
 

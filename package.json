@@ -1,7 +1,7 @@
 {
   "name": "savage-ipsum",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dummy text generator inspired by the cream of the crop - Ohhhhh yeahhhh!",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -11,7 +11,11 @@
     "tw:prod": "cross-env NODE_ENV=production postcss build src/css/style.tailwind.css -o public/css/style.css",
     "tw:watch": "onchange \"tailwind.config.js\" \"src/css/**/*.css\" -- npm run tw:build"
   },
-  "keywords": [],
+  "keywords": [
+    "lorem-ipsum",
+    "macho man",
+    "randy savage"
+  ],
   "author": "Jeff Pottruff",
   "license": "ISC",
   "dependencies": {
@@ -27,5 +31,8 @@
     "cross-env": "^7.0.3",
     "jest": "^26.6.3",
     "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.15.x"
   }
 }

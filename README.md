@@ -31,8 +31,8 @@ Check it out here: https://savageipsum.herokuapp.com/
 
 `npm run tw:prod`
 
-- will treeshake the unused styles and drastically reduce the size of the css output
-- _this script is currently using [cross-env](https://www.npmjs.com/package/cross-env)_
+- treeshakes unused styles and drastically reduces the size of the css output
+- _NOTE: this script is currently using [cross-env](https://www.npmjs.com/package/cross-env)_
 
 ## Attribution
 

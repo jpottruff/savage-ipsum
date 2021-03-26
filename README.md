@@ -8,6 +8,8 @@
 
 Dummy text generator inspired by the cream of the crop! Made with _node_, _express_, _handlebars_, and _tailwind css_. Ohhhhh yeahhhh!
 
+Check it out here: https://savageipsum.herokuapp.com/
+
 ## Frameworks / Libraries / Tools
 
 - [express](https://expressjs.com/)
